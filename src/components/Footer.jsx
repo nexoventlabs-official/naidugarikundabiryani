@@ -46,23 +46,11 @@ export default function Footer() {
 
         {/* Kitchen Outlets */}
         <div className="footer-column">
-          <h3>Our Kitchens</h3>
+          <h3>Our Location</h3>
           <ul className="footer-outlets">
-            <li className="flex-center" style={{ justifyContent: 'flex-start', gap: '8px' }}>
-              <MapPin size={16} color="var(--primary)" />
-              <span>Jubilee Hills, Hyderabad</span>
-            </li>
-            <li className="flex-center" style={{ justifyContent: 'flex-start', gap: '8px' }}>
-              <MapPin size={16} color="var(--primary)" />
-              <span>Benz Circle, Vijayawada</span>
-            </li>
-            <li className="flex-center" style={{ justifyContent: 'flex-start', gap: '8px' }}>
-              <MapPin size={16} color="var(--primary)" />
-              <span>Indiranagar, Bangalore</span>
-            </li>
-            <li className="flex-center" style={{ justifyContent: 'flex-start', gap: '8px' }}>
-              <MapPin size={16} color="var(--primary)" />
-              <span>Arundelpet, Guntur</span>
+            <li className="flex-center" style={{ justifyContent: 'flex-start', gap: '8px', alignItems: 'flex-start' }}>
+              <MapPin size={16} color="var(--primary)" style={{ flexShrink: 0, marginTop: '3px' }} />
+              <span style={{ lineHeight: '1.4' }}>NO5, PATHAVANTRADINGCOMPANY, UDAYARPALAYAM TK, 5TH CROSS, THIRUNAGAR, JAYANKONDAM, TIRUCHIRAPALLI</span>
             </li>
           </ul>
         </div>
@@ -77,7 +65,7 @@ export default function Footer() {
             </li>
             <li className="flex-center" style={{ justifyContent: 'flex-start', gap: '10px' }}>
               <Mail size={16} color="var(--primary)" />
-              <a href="mailto:support@naidugarikunda.com">support@naidugarikunda.com</a>
+              <a href="mailto:contact@naidugarikundabiyani.me">contact@naidugarikundabiyani.me</a>
             </li>
             <li className="operating-hours">
               <strong>Operating Hours:</strong>

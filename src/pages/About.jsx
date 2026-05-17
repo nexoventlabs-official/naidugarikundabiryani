@@ -118,7 +118,7 @@ export default function About() {
             <div className="timeline-year">2014</div>
             <div className="timeline-detail glass-panel">
               <h3>Crossing Borders</h3>
-              <p>Naidu Gari opens its first large-scale flagship kitchen in Jubilee Hills, Hyderabad, spreading the traditional Andhra clay style to city dwellers.</p>
+              <p>Naidu Gari opens its first large-scale flagship kitchen, spreading the traditional wood-fired clay cooking style to all biryani enthusiasts.</p>
             </div>
           </div>
 
@@ -127,7 +127,7 @@ export default function About() {
             <div className="timeline-year">2026</div>
             <div className="timeline-detail glass-panel">
               <h3>10+ Earthen Outlets</h3>
-              <p>Expanding across Hyderabad, Bangalore, Guntur, and Vijayawada, preserving hand-ground recipes and helping 50+ potter families earn direct livelihoods.</p>
+              <p>Operating a premium wood-fired flagship kitchen, preserving hand-ground recipes and helping 50+ potter families earn direct livelihoods.</p>
             </div>
           </div>
         </div>

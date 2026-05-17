@@ -70,8 +70,8 @@ export default function PrivacyPolicy() {
             </p>
             <p className="contact-box">
               <strong>Naidu Gari Legal Cell</strong><br />
-              Plot 482, Road No. 36, Jubilee Hills, Hyderabad - 500033<br />
-              Email: <a href="mailto:privacy@naidugarikunda.com">privacy@naidugarikunda.com</a>
+              NO5, PATHAVANTRADINGCOMPANY, UDAYARPALAYAM TK, 5TH CROSS, THIRUNAGAR, JAYANKONDAM, TIRUCHIRAPALLI<br />
+              Email: <a href="mailto:contact@naidugarikundabiyani.me">contact@naidugarikundabiyani.me</a>
             </p>
           </div>
         </div>

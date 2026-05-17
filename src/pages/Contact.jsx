@@ -6,7 +6,7 @@ export default function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
-  const [outlet, setOutlet] = useState('Jubilee Hills, Hyderabad');
+  const [outlet, setOutlet] = useState('Jayankondam');
   const [type, setType] = useState('General Query');
   const [date, setDate] = useState('');
   const [time, setTime] = useState('');
@@ -36,25 +36,11 @@ export default function Contact() {
 
   const outlets = [
     {
-      city: 'Hyderabad',
-      name: 'Jubilee Hills Flagship',
-      address: 'Plot 482, Road No. 36, Near Metro Station, Jubilee Hills, Hyderabad - 500033',
+      city: 'Jayankondam',
+      name: 'Pathavan Trading Company',
+      address: 'NO5, PATHAVANTRADINGCOMPANY, UDAYARPALAYAM TK, 5TH CROSS, THIRUNAGAR, JAYANKONDAM, TIRUCHIRAPALLI',
       phone: '+91 98765 43210',
-      email: 'hyd.jh@naidugarikunda.com',
-    },
-    {
-      city: 'Vijayawada',
-      name: 'Benz Circle Kitchen',
-      address: 'Shop No 14, Ground Floor, Benz Circle Junction, Vijayawada - 520010',
-      phone: '+91 98765 43212',
-      email: 'vja.bc@naidugarikunda.com',
-    },
-    {
-      city: 'Bangalore',
-      name: 'Indiranagar Earthen Outlet',
-      address: '100 Feet Road, Next to Metro Pillar 42, Indiranagar, Bangalore - 560038',
-      phone: '+91 98765 43214',
-      email: 'blr.in@naidugarikunda.com',
+      email: 'contact@naidugarikundabiyani.me',
     }
   ];
 
@@ -115,9 +101,7 @@ export default function Contact() {
               <div className="form-group">
                 <label>Select Nearest Outlet</label>
                 <select value={outlet} onChange={(e) => setOutlet(e.target.value)} aria-label="Outlet location choice">
-                  <option value="Jubilee Hills, Hyderabad">Jubilee Hills, Hyderabad</option>
-                  <option value="Benz Circle, Vijayawada">Benz Circle, Vijayawada</option>
-                  <option value="Indiranagar, Bangalore">Indiranagar, Bangalore</option>
+                  <option value="Jayankondam">Jayankondam (Pathavan Trading Company)</option>
                 </select>
               </div>
             </div>
